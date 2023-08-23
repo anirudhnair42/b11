@@ -1,3 +1,3 @@
 # B11
 
-Welcome to the companies interface!
+Welcome to the B11 companies interface!
