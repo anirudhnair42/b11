@@ -16,7 +16,7 @@ import MetricsController from "./controllers/MetricsController";
 
 dotenv.config();
 
-if (!process.env.PORT) {
+if (process.env.BRANCH === "dev" && !process.env.PORT) {
   console.log("PORT not defined");
   process.exit(1);
 }
